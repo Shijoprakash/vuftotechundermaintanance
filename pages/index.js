@@ -337,6 +337,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-image {
+              width: var(--dl-size-size-xlarge);
+            }
             .home-links {
               display: none;
             }
@@ -366,6 +369,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-image {
+              width: var(--dl-size-size-xlarge);
+            }
             .home-banner {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
